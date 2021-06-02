@@ -27,7 +27,7 @@ public class DogRegister {
 
     public DogRegister() {
         String[] test_reportfile_path = new String[]{"src", "main", "resources", "benchmarker", "report_benchmark.json"};
-        String[] test_inputfile_path = new String[]{"src", "main", "resources", "benchmarker", "benchmarker/input_benchmark.csv"};
+        String[] test_inputfile_path = new String[]{"src", "main", "resources", "benchmarker", "input_benchmark.csv"};
         this.logger = new CustomLogger();
         this.inputFile = FileOpener.getFile(test_inputfile_path);
         this.reportFile = FileOpener.getFile(test_reportfile_path);
